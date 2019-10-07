@@ -29,6 +29,10 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 2,
 			"list": [
@@ -49,6 +53,21 @@
 					"id": -1,
 					"name": "playlist",
 					"pathName": "pages/playlist/playlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "musiclist",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId=171703222",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/player/player",
+					"pathName": "pages/player/player",
+					"query": "musicId=30355939&index=3",
 					"scene": null
 				}
 			]
